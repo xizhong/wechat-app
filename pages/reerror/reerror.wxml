@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="result">
+    <text class="title"> 恭喜刷完一遍错题，还有{{total}}道错题</text>
+
+    <view class='sahua'></view>
+
+    <view class='btn'>
+        <button class='btn-item' bindtap='bindError' hover-class='btn_hover'>再次刷题</button>
+        <button class='btn-item' bindtap='bindHome' hover-class='btn_hover'>返回首页</button>
+    </view>
+    
+</view>

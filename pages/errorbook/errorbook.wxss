@@ -1,0 +1,102 @@
+page {
+    background-color: lightblue;
+}
+
+.error {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50rpx 100rpx;
+    box-sizing: border-box;
+}
+
+
+.error .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.error .content .title {
+    display: flex;
+    margin-top: 30rpx;
+    text-align: center;
+    font-size: larger;
+    justify-content: center;
+}
+
+.error .content .question {
+    margin: 20rpx 50rpx;
+    font-size: normal;
+    text-align: center;
+}
+
+.error .content .ques-img {
+    width: 400rpx;
+    height: 200rpx;
+    margin: 0rpx auto;
+}
+
+radio {
+    transform: scale(1.5);
+}
+
+
+.error .content .item-body {
+    margin-top: 20rpx;
+}
+
+.error .content .item-body .item {
+    width: 600rpx;
+    height: 80rpx;
+    margin: 10rpx auto;
+    padding-top: 15rpx;
+    border: solid cornflowerblue 3rpx;
+    background-color:bisque;
+    border-radius: 10px;
+    text-align: center;
+    text-justify:auto;
+    margin-bottom: 5%;
+}
+
+.error .btn {
+    display: flex;
+    margin-top: 200rpx;
+    text-align: center;
+    font-size: normal;
+    justify-content: center;
+}
+
+.error .btn .btn-item {
+    width: 300rpx;
+    height: 100rpx;
+    border: solid cornflowerblue 3rpx;
+    background-color: bisque;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: auto;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.result .btn .btn_hover{
+    width: 300rpx;
+    height: 100rpx;
+    border: solid cornflowerblue 3rpx;
+    background-color: gainsboro ;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: auto;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}

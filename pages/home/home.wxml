@@ -1,0 +1,52 @@
+<!--pages/home/home.wxml-->
+<view class='dle'>
+    <view class='header'>
+        <view class='userInfo'>
+            <block wx:if='{{!hasUserInfo}}'>
+                <image class='userinfo-avatar' src='https://png.icons8.com/ios-glyphs/2x/user.png'></image>
+                <text class="userinfo-nickname">user</text>
+            </block>
+            <block wx:else>
+                <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+                <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+            </block>
+        </view>
+        <view class='user-info'>
+            <view class='user-info-key'>得分: 
+                <view class='user-info-value'>{{score}}</view>
+            </view>
+            <view class='user-info-key'>排名: 
+                <view class='user-info-value'>1/50 {{userRank}}</view>
+            </view>
+        </view>
+        <view class='user-level'>
+            <view class='level-logo'></view>
+            <view class='level-title'> 初入江湖 {{userlevel}}</view>
+        </view>
+    </view>
+
+    <view class='dle-body'>
+        <view class='bigbtnfor2'>
+            <view bindtap='goExam' data-testType="exam" class='home-exam'>
+                <view class='inner'> 排位赛</view>
+            </view>
+            <view bindtap='goRank' data-testType="rank" class='home-rank'>
+                <view class='inner'>排行榜</view>
+            </view>
+        </view>
+        <view class='bigbtnfor3'>
+            <view bindtap='goError' data-testType="error" class='home-error'>
+                <view class='inner'>错题本</view>
+            </view>
+            <view class='two-colume'>
+                <view bindtap='goUserCenter' data-testType="usercenter" class='home-user'>
+                    <view class='inner'>个人中心</view>
+                </view>
+                <view bindtap='goSettings' data-testType="settings" class='home-settings'>
+                    <view class='inner'>设置</view>
+                </view>
+            </view>
+        </view>
+        <view class='bottom'> </view>
+    </view>
+</view>

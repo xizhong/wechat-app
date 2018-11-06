@@ -1,0 +1,21 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/errorbook/errorbook",
+        "pages/result/result",
+        "pages/exam/exam",
+        "pages/home/home",
+        "pages/logs/logs",
+        "pages/rank/rank",
+        "pages/settings/settings",
+        "pages/usercenter/usercenter",
+        "pages/reerror/reerror",
+        "pages/noerror/noerror"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#20c4da",
+        "navigationBarTitleText": "超级爱答题",
+        "navigationBarTextStyle": "black"
+    }
+}

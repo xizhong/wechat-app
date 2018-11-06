@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class='exam'>
+    <view class='countdown'>
+        <!--创建两个Canvas  -->
+        <canvas class='bgCanvas' canvas-id='bgCanvas'></canvas>
+        <canvas class="progress_canvas" canvas-id="canvasProgress"> </canvas>
+        <view class='stepText'>{{stepText}}</view>
+    </view>
+
+    <view class="game-body">
+        <view class='title'>第{{current+1}}题</view>
+        <view class='question'>{{questionList[current].question}}</view>
+        <block wx:if="{{questionList[current].pic!=''}}">
+            <image class='ques-img' src='{{questionList[current].pic}}'></image>
+        </block>
+
+        <radio-group class='item-body'>
+            <view wx:for="{{questionList[current].items}}">
+                <label>
+                    <view wx:if="{{answer!=null && answer == item.name && item.value!=1}}" class="item" style="background-color:red" bindtap='onQuestionRadio' data-value="{{item.value}}" data-name="{{item.name}}">
+                        {{item.name}}
+                    </view>
+                    <view wx:elif="{{answer!=null && item.value==1}}" class="item" style="background-color:green" bindtap='onQuestionRadio' data-value="{{item.value}}" data-name="{{item.name}}">
+                        {{item.name}}
+                    </view>
+                    <view wx:else class="item" bindtap='onQuestionRadio' data-value="{{item.value}}" data-name="{{item.name}}">
+                        {{item.name}}
+                    </view>
+                </label>
+            </view>
+        </radio-group>
+    </view>
+
+    <!-- <view class='game-btn'>
+    </view>
+    <view class='btn-body'>
+        <block wx:if='{{current< questionCount}}'>
+            <button class='btn-item' bindtap='onNextQuestion'>下一题</button>
+        </block>
+        <block wx:else>
+            <button class='btn-item' type='warn' bindtap='bindShowGrade'>显示成绩</button>
+        </block>
+
+    </view> -->
+
+</view>

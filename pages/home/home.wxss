@@ -1,0 +1,214 @@
+.dle{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    /* background-color:lightblue; */
+}
+
+.dle .header{
+    display: flex;
+    position: fixed;
+    margin-top: 3%;
+    height: 14%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    border-bottom: 1px solid #f0f0f0;
+    box-shadow: 0px 2px 5px #f0f0f5;
+    justify-content: left;
+    align-items: center;
+    z-index: 200;
+    background-color:lightblue;
+    border-radius: 2%;
+}
+
+.dle .header .userInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.dle .header .userInfo .userinfo-avatar {
+  width: 130rpx;
+  height: 130rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50%;
+}
+
+.dle .header .userInfo .userinfo-nickname {
+  color:white;
+  font-style: solid;
+  font-size: 50rpx;
+  align-content: top;
+  font: bold;
+}
+
+.dle .header .user-info{
+    width: 200rpx;
+    font-size: 25rpx;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.dle .header .user-info .user-info-key{
+    color:coral;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dle .header .user-info .user-info-value{
+    color:deeppink;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.dle .header .user-level{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dle .header .user-level .level-logo{
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541155053805&di=29de401e68e24d209270228a3195a272&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FniMxcNRf7eUUi2FzsgQT7gyhYoRrCb19x9jlK9LD7Pxbj1523100191531.gif);
+    background-size: 100%;
+    width: 130rpx;
+    height: 130rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.dle .header .user-level .level-title{
+    height: 15%;
+    width: 100%;
+    color:black;
+    flex-direction: column;
+    display: flex;
+    font-size: 25rpx;
+    text-align: center;
+}
+
+.dle .dle-body{
+    display: flex;
+	padding-top: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    border-radius: 10%;
+    flex-direction: column;
+}
+
+.dle .dle-body .bigbtnfor2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    align-items: center;    
+}
+
+.dle .dle-body .bigbtnfor2 .home-exam{
+	width:350rpx;
+    height:350rpx;
+	display:flex;
+    background-color:cornflowerblue;   
+    border-radius: 10%;     
+    background-image: url(https://img.icons8.com/color/2x/gold-medal.png);
+    background-size: 250rpx 250rpx;
+    background-repeat:no-repeat;
+    background-position-x: 60%;
+    background-position-y: 80%;  
+}
+
+.inner{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+    font:bold sans-serif;
+}
+
+.dle .dle-body .bigbtnfor2 .home-rank{
+	height:350rpx;
+	width:350rpx;
+	display:flex;
+    margin-left: 3%;     
+    background-color:gold;
+    border-radius: 10%; 
+    background-image: url(https://img.icons8.com/nolan/2x/leaderboard.png);
+    background-size: 250rpx 250rpx;
+    background-repeat:no-repeat;
+    background-position-x: 60%;
+    background-position-y: 80%;  
+}
+
+.dle .dle-body .bigbtnfor3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.dle .dle-body .bigbtnfor3 .home-error{
+	height:350rpx;
+	width:350rpx;
+    display: flex;
+    background-color:#df23c6;
+    border-radius: 10%;
+    background-image: url(https://img.icons8.com/nolan/2x/error.png);
+     background-size: 250rpx 250rpx;
+    background-repeat:no-repeat;
+    background-position-x: 60%;
+    background-position-y: 80%;  
+}
+
+.dle .dle-body .bigbtnfor3 .two-colume{
+	height:350rpx;
+	width:350rpx;
+	display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.dle .dle-body .bigbtnfor3 .two-colume .home-user{
+	height:150rpx;
+	width:350rpx;
+	display:flex;
+    background-color:#ff000079;
+    border-radius: 20rpx;
+    margin-top: 10rpx;
+    background-image: url(https://img.icons8.com/ultraviolet/2x/home-page.png);
+    background-size: 100rpx 100rpx;
+    background-repeat:no-repeat;
+    background-position-x: 80%;
+    background-position-y: 70%;
+}
+
+.dle .dle-body .bigbtnfor3 .two-colume .home-settings{
+	height:150rpx;
+	width:350rpx;
+	display:flex;
+    background-color:#00c3ff;
+    border-radius: 20rpx;
+    margin-top: 30rpx;
+    background-image: url(https://img.icons8.com/office/2x/services.png);
+    background-size: 100rpx 100rpx;
+    background-repeat:no-repeat;
+    background-position-x: 80%;
+    background-position-y: 70%;
+}
+
+.dle .dle-body .bottom{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100rpx;
+    background-image: url(http://www.ict.cas.cn/images/cn53img0.jpg);
+    background-size: 100%;
+}
+

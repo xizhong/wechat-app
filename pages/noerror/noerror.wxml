@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="result">
+    <text class="title"> 当前已无错题啦</text>
+
+    <view class='sahua'></view>
+
+    <view class='btn'>
+        <button class='btn-item' bindtap='bindExam' hover-class='btn_hover'>再次挑战</button>
+        <button class='btn-item' bindtap='bindHome' hover-class='btn_hover'>返回首页</button>
+    </view>
+    
+</view>

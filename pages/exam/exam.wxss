@@ -1,0 +1,91 @@
+page {
+    background-color: lightblue;
+}
+
+.eaxm {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50rpx 100rpx;
+    box-sizing: border-box;
+}
+
+.exam .countdown {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.exam .countdown .bgCanvas {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.exam .countdown .stepText {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: solid green;
+}
+
+radio {
+    transform: scale(1.5);
+}
+
+.exam .game-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.exam .game-body .title {
+    display: flex;
+    margin-top: 30rpx;
+    text-align: center;
+    font-size: larger;
+    justify-content: center;
+}
+
+.exam .game-body .question {
+    margin: 20rpx 50rpx;
+    font-size: normal;
+    text-align: center;
+}
+
+.exam .game-body .ques-img {
+    width: 400rpx;
+    height: 200rpx;
+    margin: 0rpx auto;
+}
+
+.exam .game-body .item-body {
+    margin-top: 20rpx;
+}
+
+.exam .game-body .item-body .item {
+    width: 600rpx;
+    height: 80rpx;
+    margin: 10rpx auto;
+    padding-top: 15rpx;
+    border: solid cornflowerblue 3rpx;
+    background-color:bisque;
+    border-radius: 10px;
+    text-align: center;
+    text-justify:auto;
+    margin-bottom: 5%;
+}

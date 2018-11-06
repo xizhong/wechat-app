@@ -1,0 +1,90 @@
+page {
+    background-color: lightblue;
+}
+
+.result {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50rpx 100rpx;
+    box-sizing: border-box;
+}
+
+.result .title {
+    display: flex;
+    margin-top: 30rpx;
+    text-align: center;
+    font-size: normal;
+    justify-content: center;
+}
+
+.result .contents {
+    display: flex;
+    flex-direction: column;
+    height: 300rpx;
+    width: 400rpx;
+    margin-top: 10%;
+    text-align: center;
+    font-size: normal;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 10rpx;
+    margin-bottom: 5%;
+}
+
+.result .contents .item {
+    display: flex;
+    margin-top: 25rpx;
+    text-align: center;
+    font-size: normal;
+    justify-content: center;
+}
+
+.result .sahua {
+    display: flex;
+    background-image: url(https://img.icons8.com/dusk/2x/confetti.png);
+    background-size: 100%;
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 10%;
+}
+
+
+.result .btn {
+    display: flex;
+    margin-top: 100rpx;
+    text-align: center;
+    font-size: normal;
+    justify-content: center;
+}
+
+.result .btn .btn-item {
+    width: 300rpx;
+    height: 100rpx;
+    border: solid cornflowerblue 3rpx;
+    background-color: bisque;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: auto;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.result .btn .btn_hover{
+    width: 300rpx;
+    height: 100rpx;
+    border: solid cornflowerblue 3rpx;
+    background-color: gainsboro ;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: auto;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+

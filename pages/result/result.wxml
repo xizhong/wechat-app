@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="result">
+    <text class="title"> 本次成绩：{{score}} 分</text>
+    <view class='contents'>
+        <text class='item'> 答对题目：{{rightnum}} 道</text>
+        <text class='item'> 答错题目：{{wrongnum}} 道</text>
+        <text class='item'> 未答题目：{{nonnum}} 道</text>
+    </view>
+
+    <view class='sahua'></view>
+
+    <view class='btn'>
+        <button class='btn-item' bindtap='bindExam' hover-class='btn_hover'>再次挑战</button>
+        <button class='btn-item' bindtap='bindError' hover-class='btn_hover'>查看错题</button>
+    </view>
+    
+</view>
